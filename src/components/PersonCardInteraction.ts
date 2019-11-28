@@ -5,7 +5,26 @@
  * -------------------------------------------------------------------------------------------
  */
 
-// THIS FILE IS AUTO GENERATED
-// ANY CHANGES WILL BE LOST DURING BUILD
+/**
+ * Defines how a person card is shown when a user interacts with
+ * a person component
+ *
+ * @export
+ * @enum {number}
+ */
+export enum PersonCardInteraction {
+  /**
+   * Don't show person card
+   */
+  none,
 
-export const PACKAGE_VERSION = '1.1.0-preview.2';
+  /**
+   * Show person card on hover
+   */
+  hover,
+
+  /**
+   * Show person card on click
+   */
+  click
+}
